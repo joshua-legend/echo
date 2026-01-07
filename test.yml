@@ -1,0 +1,13 @@
+name: Test
+on:
+  push:
+    branches:
+      - main
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 여진쓰 월드
+        run: echo "여진쓰 월드"
+      - name: 두쫀쿠
+        run: echo "두쫀쿠"
