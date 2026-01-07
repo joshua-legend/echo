@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 여진쓰 월드
-        run: echo "여진쓰 월드"
+        run: echo "여월이"
       - name: 두쫀쿠
-        run: echo "두쫀쿠"
+        run: echo "두바이 침공 성공!"
+      - name: Check OS Version
+        run: cat /etc/os-release
